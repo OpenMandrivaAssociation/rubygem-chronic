@@ -2,8 +2,8 @@
 
 Summary:	A natural language date/time parser written in pure Ruby
 Name:		rubygem-%{oname}
-Version:	0.2.3
-Release:	%mkrel 2
+Version:	0.3.0
+Release:	%mkrel 1
 License:	MIT
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
