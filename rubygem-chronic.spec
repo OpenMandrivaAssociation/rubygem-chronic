@@ -56,3 +56,23 @@ rm -rf %{buildroot}
 %{ruby_gemdir}/gems/%{rbname}-%{version}/benchmark/*.rb
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/test
 %{ruby_gemdir}/gems/%{rbname}-%{version}/test/*.rb
+
+
+%changelog
+* Thu Mar 10 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.3.0-1
++ Revision: 643536
+- regenerate spec with gem2rpm5
+- new release: 0.3.0
+
+* Sat Sep 18 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.2.3-2mdv2011.0
++ Revision: 579738
+- rebuild for new automatic provides/requires
+- don't ship the gem archive with package
+
+* Wed Feb 03 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.2.3-1mdv2010.1
++ Revision: 500303
+- import rubygem-chronic
+
+
+* Mon Feb  3 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.2.3-1
+- initial release
