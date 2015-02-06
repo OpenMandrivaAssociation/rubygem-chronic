@@ -5,7 +5,7 @@ Summary:	Natural language date/time parsing
 Name:		rubygem-%{rbname}
 
 Version:	0.3.0
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	MIT
 URL:		http://github.com/mojombo/chronic
