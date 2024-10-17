@@ -8,7 +8,7 @@ Version:	0.3.0
 Release:	2
 Group:		Development/Ruby
 License:	MIT
-URL:		http://github.com/mojombo/chronic
+URL:		https://github.com/mojombo/chronic
 Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildArch:	noarch
